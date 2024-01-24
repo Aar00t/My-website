@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aaro Nuoramo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/jhz4bjm.css">
+    <script src="https://kit.fontawesome.com/a7e386b818.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/logo_mustana.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+<body>
+
+<div id="page"> <!--Page starts-->
+
+  <header>  <!--header starts-->
+    <nav class="topnav" id="myTopnav"> <!--nav starts-->
+      <a style="background-color: transparent; display:inline;" href="index.html"><img src="img/logo_mustana.png" alt="Nimikirjoitus"></a>
+      <a id="active" class="item" href="index.html">Home</a>
+      <a class="item" href="portfolio.html">Portfolio</a>
+      <a class="item" href="about.html">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars fa-2x"></i>
+      </a>
+      <a class="social" href="https://www.linkedin.com/in/aaro-nuoramo-4484531a4/" style="text-decoration: none;">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a class="social" href="https://github.com/codeaaro">
+        <i class="fa-brands fa-square-github"></i>
+      </a>
+    </nav> <!--nav ends-->
+    <h1>Aaro Nuoramo</h1>
+  </header> <!--header ends-->
+
+  <section> <!--section starts-->
+    <section class="content_left"> <!--content left-->
+      <img src="img/omakuvaa.jpg" alt="oma kuva">
+    </section>
+    <section class="content_right"> <!--content right-->
+      <h2>Futures Cyber Security Engineer</h2>
+      <br>
+      <p>
+        I'm Aaro Nuoramo, a first-year ICT engineering student at Jyväskylä University of Applied Sciences.
+        My goal is to specialise in cyber security and graduate within four years.     
+      </p>
+      <canvas id="myChart" style="width:100%;max-width:600px;"></canvas>
+      <h3>35/270 credits</h3>
+
+    </section>
+  </section> <!--section ends-->
+
+  <footer> <!--footer starts-->
+      aaro.nuoramo@gmail.com
+  </footer>
+
+</div> <!--Page ends-->
+
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
+const xValues = ["tyhjä", "opinnot"];
+const yValues = [12.96, 87.04];
+const barColors = [
+	"rgb(255, 255, 255)",
+  "rgb(27, 46, 46)"
+];
+
+new Chart("myChart", {
+  type: "doughnut",
+  data: {
+    labels: "",
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: { 
+    title: {
+      display: true,
+      text: "Study progression",
+      fontSize: 30,
+      fontColor: 'white'
+    }
+  }
+});
+</script>
+
+</body>
+</html>

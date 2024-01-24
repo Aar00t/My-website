@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aaro Nuoramo - Portfolio</title>
+    <link rel="stylesheet" href="portfolio_styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/jhz4bjm.css">
+    <script src="https://kit.fontawesome.com/a7e386b818.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/logo_mustana.png">
+  </head>
+<body>
+
+<div id="page"> <!--Page starts-->
+
+  <header>  <!--header starts-->
+    <nav class="topnav" id="myTopnav"> <!--nav starts-->
+      <a style="background-color: transparent; display:inline;" href="index.html"><img src="img/logo_mustana.png" alt="Nimikirjoitus"></a>
+      <a class="item" href="index.html">Home</a>
+      <a id="active" class="item" href="portfolio.html">Portfolio</a>
+      <a class="item" href="about.html">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars fa-2x"></i>
+      </a>
+      <a class="social" href="https://www.linkedin.com/in/aaro-nuoramo-4484531a4/" style="text-decoration: none;">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a class="social" href="https://github.com/codeaaro">
+        <i class="fa-brands fa-square-github"></i>
+      </a> 
+    </nav> <!--nav ends-->
+    <h1>Portfolio</h1>
+  </header> <!--header ends-->
+
+  <section> <!--section starts-->
+    <section class="content_left"> <!--content left starts-->
+      <section class="timeline">
+        <h2>ICT skills</h2>
+        <div class="container">
+          <div class="content">
+            <h3>HTML & CSS</h3>
+            <p>
+              In the web technology course, I learned how to create websites in HTML standards and how to style them using CSS.  
+              This website was my course project.            
+            </p>
+            <br>
+            <p>
+              Before applying to summer jobs I decided to buy a domain name and a host service for this website to make 
+              it easier to find and remember.
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="content">
+            <h3>Python</h3>
+            <p>
+              In the Python basics course I learned the fundamentals of programming. I learned about conditional structures, 
+              iteration structures, functions, classes, objects, collections and files.  
+            </p>
+              <br>
+            <p>
+              During the course I did 50 python exercises which you can look at my GitHub.
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="content">
+            <h3>Linux</h3>
+            <p>
+              In the Linux basics course I learned how to use the Linux command line. 
+              The main things I learned from the course was navigating directories, creating and managing directories and files, 
+              changing user permissions and ownership, adding and managing users and downloading files.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section> <!--content left ends-->
+    <section class="content_right"> <!--content right 1 starts-->
+      <section class="timeline">
+        <h2>Projects</h2>
+        <div class="container">
+          <div class="content">
+            <h3>Server PC</h3>
+            <p>
+              I have applied my Linux skills in my personal project. I made a Ubuntu server on my server PC which I built 
+              from leftover components. I started to host a Minecraft server on it and made the server so anybody can join to it outside
+              my local network.
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="content">
+            <h3>Excel</h3>
+            <p>
+              I have created an investment tracking table in Excel. My bank doesn't have a graph for the value development of the equity savings account
+              so I made my own graph in Excel. With my father's help in VBA, my workbook records the value of my portfolio everytime I open my pc. 
+              With the data, I created my own graph to see the value development of my equity savings account. 
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="content">
+            <h3>My own PC</h3>
+            <p>
+              I have built my own PC in 2018, when I was 15 years old. I wanted a computer that lasts a long time and can be upgraded. 
+              I learned what parts are compatible with each other and what parts you need to have a working PC. Then I watched reviews 
+              and started to pick components for my PC. My first configuration was Intel Core i7-8700K, Nvidia Geforce GTX 1070 8Gb, 16Gb of ram, 250Gb m.2. ssd and 1Tb hdd. 
+              Then I have added 16Gb of ram, 4Tb hdd and 500Gb ssd. So now I have 32Gb of ram and around 5.5Tb of storage.            
+            </p>
+          </div>
+        </div>
+      </section>
+    </section> <!--content right 1 ends-->
+    <section class="content_right"> <!--content right 2 starts-->
+      <section class="timeline">
+        <h2>Other skills</h2>
+        <div class="container">
+          <div class="content">
+            <h3>Adobe Lightroom</h3>
+            <p>
+              As a photographer, I have spent hundreds of hours editing photos. I use Adobe Lightroom Classic, because It's the best tool for me to 
+              edit raw photos and export them straight to a online photo gallery.
+            </p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="content">
+            <h3>Adobe Premiere Pro</h3>
+            <p>
+              As a content creator, I have edited videos for clients and for my own needs. I've been learning to use Premiere Pro by myself and now
+              I have a reasonable amount of experience with it. The recent videos I have edited have been a player presentation video
+              and few short Instagram Reels videos for clients.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section> <!--content right 2 ends-->
+  </section> <!--section ends-->
+
+  <footer> <!--footer starts-->
+    aaro.nuoramo@gmail.com
+  </footer>
+
+</div> <!--Page ends-->
+
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+</script>
+  
+
+</body>
+</html>
