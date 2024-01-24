@@ -173,6 +173,13 @@ footer {
 
 @media screen and (max-width: 750px) { /* Mobile */
 
+  header h1{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
   nav {
     margin-top: 50px;
   }
@@ -194,6 +201,10 @@ footer {
   nav a.icon {
     display: inline-block;
     background-color: transparent;
+  }
+
+  nav a.icon:hover{
+    background-color: #00000000;
   }
 
   nav a.social{

@@ -241,7 +241,14 @@ footer {
 
   section.timeline{
     margin: 2% auto;
+    border-left: 10px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+
   }
+  
 }  
 
 @media screen and (min-width: 1101px) { /* All the other devices */
