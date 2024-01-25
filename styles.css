@@ -118,7 +118,7 @@ section.content_right {
   font-size: 1.875em;
   color: white;
   border: none;
-  text-align: left;
+  text-align: center;
   text-shadow: 1px 1px rgb(56, 56, 56);
   display: inline-block;
   flex: 1;
@@ -262,7 +262,7 @@ footer {
     flex: 1;
     font-size: 30px;
     color: white;
-    text-align: left;
+    text-align: center;
     margin: 0;
     padding: 0px 15px;
     word-wrap: break-word;
