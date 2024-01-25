@@ -114,10 +114,10 @@ section.content_left {
 }
 
 section.content_left ul{
-  padding: 1% 2%;
+  padding: 10px 20px;
 }
 section.content_left li{
-  padding: 1% 0;
+  padding: 10px 0;
 }
 
 section.content_right {
@@ -265,7 +265,6 @@ footer{
     height: fit-content;
   }
   
-
 }
   
 
