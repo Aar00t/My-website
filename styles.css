@@ -209,11 +209,11 @@ footer {
   }
 
   nav a.social{
-    width: 50%;
-    float: left;
+    width: 100%;
     margin: 0 auto;
     padding: 4% 0;
   }
+
 
   #active {
     background-color:rgb(78, 77, 77);
