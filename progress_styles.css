@@ -283,6 +283,7 @@ footer {
   }
     
   section {
+    width: 90%;
     flex-direction: column; 
     height: fit-content; 
     margin: 0 auto;
