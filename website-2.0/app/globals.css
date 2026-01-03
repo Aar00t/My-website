@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
-html { scroll-behavior: smooth; }
+
+
+html { 
+  scroll-behavior: smooth; 
+
+}
 
 body {
  	background-color:oklch(13% 0.028 261.692) ; /* Tailwindcss gray-900 */
@@ -14,22 +19,14 @@ header {
   background-color: oklch(21% 0.034 264.665) ; /* Tailwindcss gray-800 */
   border-color: oklch(58.6% 0.253 17.585) ; /* Tailwindcss rose-600 */
   border-bottom: 2px solid oklch(58.6% 0.253 17.585);
+  font-weight: bold;
+  font-size:larger;
 }
 
-#about {
-
-}
-
-#projects {
-
-}
-
-#contact {
-
-}
 
 
 footer {
-
+  border-color: oklch(58.6% 0.253 17.585) ; /* Tailwindcss rose-600 */
+  border-top: 2px solid oklch(58.6% 0.253 17.585);
 
 }
