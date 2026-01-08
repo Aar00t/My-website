@@ -7,10 +7,8 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="border-t bottom-0">
-      <div className="grid grid-cols-2 mx-auto max-w-5xl px-10 py-6 text-sm text-gray-300">
+      <div className="grid grid-cols-2 max-w-5xl px-10 py-6 text-sm text-gray-300 text-wrap mx-auto">
         <div className="text-left">
-          <p>Designed & built by Aar00t</p>
-          <br />
           <p>© {new Date().getFullYear()} All rights reserved.</p>
                     {/* Privacy Notice link */}
           <Link 
@@ -22,7 +20,7 @@ export default function Footer() {
 
         </div>
         <div className="text-right">
-          <p>Contact: aaro.nuoramo@gmail.com</p>
+          <p>Designed & built by Aar00t</p>
 
 
         </div>
