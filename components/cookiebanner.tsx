@@ -45,20 +45,6 @@ export default function CookieBanner() {
 
       <div style={{ display: "flex", gap: "8px", justifyContent: "flex-end" }}>
         <button
-          onClick={reject}
-          style={{
-            padding: "8px 12px",
-            borderRadius: "8px",
-            background: "#3A3A3A",
-            color: "#fff",
-            border: "none",
-            cursor: "pointer",
-          }}
-        >
-          Reject
-        </button>
-
-        <button
           onClick={accept}
           style={{
             padding: "8px 14px",
@@ -72,6 +58,22 @@ export default function CookieBanner() {
         >
           Accept
         </button>
+
+
+        <button
+          onClick={reject}
+          style={{
+            padding: "8px 12px",
+            borderRadius: "8px",
+            background: "#3A3A3A",
+            color: "#fff",
+            border: "none",
+            cursor: "pointer",
+          }}
+        >
+          Reject
+        </button>
+
       </div>
     </div>
   );
