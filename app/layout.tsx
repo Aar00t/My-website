@@ -16,7 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <CookieBanner />
         {/* Render children first, or wherever you prefer */}
         {children}
-        <GoogleAnalytics gaId="G-NLXRQRSZ05" />      
+        <GoogleAnalytics gaId="G-RS0RCJV9BM" />      
       </body>
     </html>
   );
