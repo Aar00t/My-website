@@ -32,7 +32,7 @@ export default function About() {
             </p>
             <p className="mt-4 text-sm">
               Outside of school I work as a part-time bike mechanic and I enjoy cycling and photography. I’m currently looking for an internship or full‑time position starting in May 2026 
-              or later where I can learn and get real‑world experience. I'm highly interested in getting work experience abroad.      
+              or later where I can learn more and get real‑world experience. I'm highly interested in getting work experience abroad.      
             </p>
           </div>
         </div>
