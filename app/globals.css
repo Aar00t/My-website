@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+
+
+html { 
+  scroll-behavior: smooth; 
+
+}
+
+body {
+ 	background-color:oklch(13% 0.028 261.692) ; /* Tailwindcss gray-900 */
+  color: oklch(96.7% 0.003 264.542); /* tailwindcss gray-100 */
+
+
+}
+
+header {
+  color: oklch(96.7% 0.003 264.542); /* tailwindcss gray-100 */
+  background-color: oklch(21% 0.034 264.665) ; /* Tailwindcss gray-800 */
+  border-color: oklch(58.6% 0.253 17.585) ; /* Tailwindcss rose-600 */
+  border-bottom: 2px solid oklch(58.6% 0.253 17.585);
+  font-weight: bold;
+  font-size:larger;
+}
+
+
+
+footer {
+  border-color: oklch(58.6% 0.253 17.585) ; /* Tailwindcss rose-600 */
+  border-top: 2px solid oklch(58.6% 0.253 17.585);
+
+}
