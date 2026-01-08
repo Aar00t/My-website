@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
 
         {/* Load GA only if user granted consent */}
-        {consent === "granted" && gaId && <GoogleAnalytics gaId={gaId} />}
+        {consent === "granted" && gaId && <GoogleAnalytics gaId={'G-RS0RCJV9BM'} />}
       </body>
     </html>
   );
