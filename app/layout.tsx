@@ -15,7 +15,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className="dark">
       <body>
         <CookieBanner />
-        {/* Render children first, or wherever you prefer */}
         {children}
         <GoogleConsent />
       </body>
