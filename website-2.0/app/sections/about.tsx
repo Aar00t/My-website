@@ -25,13 +25,15 @@ export default function About() {
           <div>
             <h3 className="mb-3 text-lg font-semibold">ICT &amp; Cybersecurity Specialist</h3>
             <p className="text-sm text-gray-300">
-              With a strong foundation in information and communications technology, I specialize in identifying
-              vulnerabilities, implementing security measures, and developing secure applications that protect
-              organizations from cyber threats.
+              I am a driven and dedicated ICT student at JAMK University of Applied Sciences, with an analytical mindset and a genuine 
+              ability to listen and collaborate effectively with others. My interest in technology has steadily evolved, and I’m now in 
+              my third year specializing in Cybersecurity, with graduation expected in 2027. I’ve completed an Ethical Hacking module, 
+              and upcoming courses in Cyber Defense and Cybersecurity Exercises will further prepare me for both offensive and defensive security roles.          
             </p>
             <p className="mt-4 text-sm">
-              My expertise spans penetration testing, secure software development, network security, and compliance
-              frameworks. I'm committed to staying ahead of emerging threats and continuously updating my skills.
+              Outside my studies, I enjoy cycling and photography. I’m currently seeking an internship or full‑time role starting
+              in May 2026 or later, where I can deepen my knowledge, gain real‑world experience, and ideally explore opportunities 
+              both in Finland and abroad.            
             </p>
           </div>
         </div>
@@ -42,12 +44,12 @@ export default function About() {
         <h3 className="mb-4 text-lg font-medium">Specializations &amp; Interests</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {[
-            { title: 'Penetration Testing', desc: 'Ethical hacking and vulnerability assessment' },
-            { title: 'Secure Development', desc: 'Writing secure, robust applications' },
-            { title: 'Security Automation', desc: 'Scripting and automation tools' },
-            { title: 'Cryptography', desc: 'Encryption and secure communications' },
-            { title: 'Network Security', desc: 'Firewall and network hardening' },
-            { title: 'Data Protection', desc: 'Secure data storage and compliance' },
+            { title: 'Web Application Security', desc: 'OWASP Top 10, Burp Suite' },
+            { title: 'Reverse Engineering', desc: 'IDA, Assembly, x86' },
+            { title: 'Python', desc: 'Programming, data analysis' },
+            { title: 'SOC', desc: 'SIEM Monitoring, threat detection' },
+            { title: 'Incident Response', desc: 'Triage, forensic analysis' },
+            { title: 'Data Networking', desc: 'Firewall, network hardening' },
           ].map((i) => (
             <div
               key={i.title}

@@ -8,7 +8,7 @@ export default function Contact() {
       <div className="text-center">
         <h2 id="contact-title" className="text-2xl text-rose-400 font-semibold py-4">Contact</h2>
         <p>Let's connect! Feel free to reach out for work opportunities, questions, or just to say hi.</p>
-        <p>I'm actively looking for an internship or a full-time opportunity for summer 2026 to fulfill graduate requirement.</p>
+        <p>I'm actively looking for an internship or a full-time opportunity for summer 2026 to fulfil graduate requirement.</p>
       </div>
 
       {/* Contact boxes */}
@@ -16,7 +16,7 @@ export default function Contact() {
         {/* Email */}
         <div className="rounded-xl border border-rose-800/20 bg-[#071017] p-3 sm:p-6 text-center">
           <a
-            href="mailto:contact@aar00t.com"
+            href="mailto:aaro.nuoramo@gmail.com"
             aria-label="Email contact"
             className="group mx-auto block w-full rounded-md p-2 sm:p-4 no-underline bg-transparent focus:outline-none focus:ring-2 focus:ring-rose-400 transition-colors duration-150"
           >

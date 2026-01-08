@@ -63,24 +63,24 @@ export default function Navbar() {
     >
       <nav className="flex items-center justify-between px-6 py-5">
         {/* Brand */}
-        <a href="#home" className="text-xl font-semibold">
+        <a href="/#home" className="text-xl font-semibold">
           Aar00t
         </a>
 
         {/* Desktop nav */}
         <ul className="hidden md:flex items-center gap-6">
           <li>
-            <a href="#about" className="hover:underline">
+            <a href="/#about" className="hover:underline">
               About
             </a>
           </li>
           <li>
-            <a href="#projects" className="hover:underline">
+            <a href="/#projects" className="hover:underline">
               Projects
             </a>
           </li>
           <li>
-            <a href="#contact" className="hover:underline">
+            <a href="/#contact" className="hover:underline">
               Contact
             </a>
           </li>
@@ -89,7 +89,7 @@ export default function Navbar() {
         {/* Desktop social icons */}
         <div className="hidden md:flex items-center gap-4">
           <a
-            href="mailto:contact@aar00t.com"
+            href="mailto:aaro.nuoramo@gmail.com"
             aria-label="Email"
             className="text-rose-500 hover:text-rose-400"
           >

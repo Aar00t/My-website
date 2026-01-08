@@ -2,7 +2,7 @@
 // app/sections/projects.tsx
 export default function Projects() {
   return (
-    <section id="projects" aria-labelledby="projects-title" className="scroll-mt-20 md:scroll-mt-10 py-10">
+    <section id="projects" aria-labelledby="projects-title" className="scroll-mt-20 md:scroll-mt-20 py-10">
       <h2 id="projects-title" className="text-2xl font-semibold mb-3">Projects</h2>
       <p className="mb-8">
         A collection of security-focused applications and tools I've built to solve real-world challenges
