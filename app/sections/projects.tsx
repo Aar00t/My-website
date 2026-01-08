@@ -9,27 +9,21 @@ export default function Projects() {
       </p>
 
       <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {/* SecureAuth Portal */}
+        {/* Website */}
         <article className="rounded-xl border border-rose-800/20 bg-[#071017] p-6 shadow-sm">
-          <div className="mb-4 flex items-center justify-center">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-rose-500" aria-hidden="true">
-              <rect x="3" y="11" width="18" height="11" rx="2" />
-              <path d="M7 11V7a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v4" />
-            </svg>
-          </div>
-          <h3 className="font-semibold text-gray-100 mb-2">SecureAuth Portal</h3>
+          <h3 className="font-semibold text-gray-100 mb-2">My website</h3>
           <p className="text-sm text-gray-400 mb-4">
-            A comprehensive authentication system with multi-factor authentication, biometric support, and advanced session management.
+            This website what you are currently looking. This is my personal portfolio website showcasing my projects, skills, and experience in cybersecurity and software development.
           </p>
           <div className="mb-4 flex flex-nowrap gap-2 overflow-x-auto">
-            {['React', 'Node.js', 'JWT', 'OAuth2'].map((t) => (
+            {['Next.js', 'TypeScript', 'CSS', 'Vercel'].map((t) => (
               <span key={t} className="px-2 py-1 text-xs rounded bg-rose-900/30 text-rose-400 border border-rose-700/50 whitespace-nowrap">
                 {t}
               </span>
             ))}
           </div>
           <a
-            href="https://github.com/aar00t/secureauth-portal"
+            href="https://github.com/Aar00t/My-website"
             target="_blank"
             rel="noopener noreferrer"
             className="block px-4 py-2 rounded-md bg-white text-black font-medium hover:bg-gray-200 transition-colors text-center"
@@ -38,27 +32,15 @@ export default function Projects() {
           </a>
         </article>
 
-        {/* VulnScanner Pro */}
+        {/* Homelab */}
         <article className="rounded-xl border border-rose-800/20 bg-[#071017] p-6 shadow-sm">
-          <div className="mb-4 flex items-center justify-center">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-rose-500" aria-hidden="true">
-              <circle cx="12" cy="12" r="8" />
-              <path d="M12 8v4l3 2" />
-            </svg>
-          </div>
-          <h3 className="font-semibold text-gray-100 mb-2">VulnScanner Pro</h3>
+          <h3 className="font-semibold text-gray-100 mb-2">HomeLab</h3>
           <p className="text-sm text-gray-400 mb-4">
-            Automated vulnerability scanning tool that identifies security weaknesses in web applications and APIs.
+            This is a comprehensive guide and documentation of my personal HomeLab setup, including hardware, software, and network configurations. 
+            Its recently created so there is not much content yet.
           </p>
-          <div className="mb-4 flex flex-nowrap gap-2 overflow-x-auto">
-            {['Python', 'Security', 'REST API', 'Docker'].map((t) => (
-              <span key={t} className="px-2 py-1 text-xs rounded bg-rose-900/30 text-rose-400 border border-rose-700/50 whitespace-nowrap">
-                {t}
-              </span>
-            ))}
-          </div>
           <a
-            href="https://github.com/aar00t/vuln-scanner-pro"
+            href="https://github.com/Aar00t/HomeLab"
             target="_blank"
             rel="noopener noreferrer"
             className="block px-4 py-2 rounded-md bg-white text-black font-medium hover:bg-gray-200 transition-colors text-center"
@@ -67,19 +49,15 @@ export default function Projects() {
           </a>
         </article>
 
-        {/* Encrypted Chat App */}
+        {/* workshop */}
         <article className="rounded-xl border border-rose-800/20 bg-[#071017] p-6 shadow-sm">
-          <div className="mb-4 flex items-center justify-center">
-            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-rose-500" aria-hidden="true">
-              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
-            </svg>
-          </div>
-          <h3 className="font-semibold text-gray-100 mb-2">Encrypted Chat App</h3>
+          <h3 className="font-semibold text-gray-100 mb-2">Workshop booking solution</h3>
           <p className="text-sm text-gray-400 mb-4">
-            End-to-end encrypted messaging application with self-destructing messages and zero-knowledge architecture.
+            I have been working as a bicycle mechanic and have experienced bad booking systems so i have
+            started to develop a booking solution for workshops. The project is still in early stages.
           </p>
           <div className="mb-4 flex flex-nowrap gap-2 overflow-x-auto">
-            {['React Native', 'WebRTC', 'Cryptography'].map((t) => (
+            {['Tech stack not decided yet'].map((t) => (
               <span key={t} className="px-2 py-1 text-xs rounded bg-rose-900/30 text-rose-400 border border-rose-700/50 whitespace-nowrap">
                 {t}
               </span>
@@ -91,8 +69,9 @@ export default function Projects() {
             rel="noopener noreferrer"
             className="block px-4 py-2 rounded-md bg-white text-black font-medium hover:bg-gray-200 transition-colors text-center"
           >
-            GitHub
+            Launch page coming later
           </a>
+
         </article>
       </div>
     </section>
