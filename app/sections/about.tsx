@@ -24,7 +24,7 @@ export default function About() {
         <div>
           <div>
             <h3 className="mb-3 text-lg font-semibold">ICT &amp; Cybersecurity Specialist</h3>
-            <p className="text-sm text-gray-300">
+            <p className="text-sm">
               I’m a third‑year ICT student at JAMK University of Applied Sciences, and my interest in technology has developed naturally 
               throughout my studies. I’m specializing in Cybersecurity and on track to graduate in 2027. I’ve already completed an Ethical 
               Hacking module, and this spring I’ll be taking Cyber Defense and Cybersecurity Exercise courses to build more hands‑on experience 
