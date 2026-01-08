@@ -6,16 +6,21 @@ import { useState, useEffect } from "react";
 export default function CookieBanner() {
   const [visible, setVisible] = useState(false);
 
-  useEffect(() => {
-    const consent = localStorage.getItem("cookie-consent");
-    if (!consent) setVisible(true);
-  }, []);
 
-  const accept = () => {
-    localStorage.setItem("cookie-consent", "granted");
-    setVisible(false);
-    window.location.reload();
-  };
+useEffect(() => {
+  if (typeof window !== "undefined") {
+    const consent = localStorage.getItem("cookie-consent");
+    setVisible(!consent);
+  }
+}, []);
+
+
+
+const accept = () => {
+  localStorage.setItem("cookie-consent", "granted");
+  setVisible(false);
+};
+
 
   const reject = () => {
     localStorage.setItem("cookie-consent", "denied");
@@ -30,6 +35,7 @@ export default function CookieBanner() {
         position: "fixed",
         bottom: "40px",
         right: "25px",
+        pointerEvents: "auto",
         padding: "16px",
         background: "#1F1F1F",
         color: "#fff",
