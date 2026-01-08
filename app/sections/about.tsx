@@ -25,15 +25,14 @@ export default function About() {
           <div>
             <h3 className="mb-3 text-lg font-semibold">ICT &amp; Cybersecurity Specialist</h3>
             <p className="text-sm text-gray-300">
-              I am a driven and dedicated ICT student at JAMK University of Applied Sciences, with an analytical mindset and a genuine 
-              ability to listen and collaborate effectively with others. My interest in technology has steadily evolved, and I’m now in 
-              my third year specializing in Cybersecurity, with graduation expected in 2027. I’ve completed an Ethical Hacking module, 
-              and upcoming courses in Cyber Defense and Cybersecurity Exercises will further prepare me for both offensive and defensive security roles.          
+              I’m a third‑year ICT student at JAMK University of Applied Sciences, and my interest in technology has developed naturally 
+              throughout my studies. I’m specializing in Cybersecurity and on track to graduate in 2027. I’ve already completed an Ethical 
+              Hacking module, and this spring I’ll be taking Cyber Defense and Cybersecurity Exercise courses to build more hands‑on experience 
+              on both the offensive and defensive sides of security.            
             </p>
             <p className="mt-4 text-sm">
-              Outside my studies, I enjoy cycling and photography. I’m currently seeking an internship or full‑time role starting
-              in May 2026 or later, where I can deepen my knowledge, gain real‑world experience, and ideally explore opportunities 
-              both in Finland and abroad.            
+              Outside of school I work as a part-time bike mechanic and I enjoy cycling and photography. I’m currently looking for an internship or full‑time position starting in May 2026 
+              or later—somewhere I can learn, get real‑world experience, and hopefully explore opportunities both in Finland and abroad.           
             </p>
           </div>
         </div>
