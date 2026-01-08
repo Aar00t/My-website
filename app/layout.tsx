@@ -2,7 +2,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import CookieBanner from '../components/cookiebanner';
-import GAWithConsent from '../components/GAWithConsent'; // <-- client component below
+import GAWithConsent from '../components/gawithconsent'; // <-- client component below
 
 export const metadata: Metadata = {
   title: 'Aar00t',
