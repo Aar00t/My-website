@@ -109,7 +109,7 @@ export default function Projects() {
           </div>
 
           <a
-            href="https://github.com/aar00t/encrypted-chat-app"
+            href="/"
             target="_blank"
             rel="noopener noreferrer"
             className="block px-4 py-2 rounded-md bg-white text-black font-medium hover:bg-gray-200 transition-colors text-center"
