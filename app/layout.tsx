@@ -2,7 +2,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import CookieBanner from '../components/cookiebanner';
-import GAWithConsent from '../components/gawithconsent'; // <-- client component below
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   title: 'Aar00t',
@@ -16,9 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <CookieBanner />
         {/* Render children first, or wherever you prefer */}
         {children}
-
-        {/* Mount GA only on the client when consent is granted */}
-        <GAWithConsent />
+        <GoogleAnalytics gaId="G-RS0RCJV9BM" />      
       </body>
     </html>
   );
