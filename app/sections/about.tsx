@@ -48,7 +48,7 @@ export default function About() {
             { title: 'Python', desc: 'Programming, data analysis' },
             { title: 'SOC', desc: 'SIEM Monitoring, threat detection' },
             { title: 'Incident Response', desc: 'Triage, forensic analysis' },
-            { title: 'Data Networking', desc: 'Firewall, network hardening' },
+            { title: 'Data Networking', desc: 'OSI, TCP/UDP, IP addressing, subnets' },
           ].map((i) => (
             <div
               key={i.title}
