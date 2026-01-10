@@ -25,8 +25,8 @@ export default function About() {
           <div>
             <h3 className="mb-3 text-lg font-semibold">ICT &amp; Cybersecurity Specialist</h3>
             <p className="text-sm">
-              I’m a third‑year ICT student at JAMK University of Applied Sciences, and my interest in technology has developed  
-              throughout the years. I’m specializing in Cybersecurity and on track to graduate in 2027. I have built a solid foundation in 
+              My name is Aaro and I’m a student from Finland. Currently in my third year studying for a bachelor’s degree in information and communication
+              technology at JAMK University of Applied Sciences. I’m specializing in Cybersecurity and on track to graduate in 2027. I have built a solid foundation in 
               programming and data networks during the first two years of my studies. This third year, I’m specialising in cybersecurity 
               and have already completed an Ethical Hacking module. In the spring semester, I will be taking Cyber Defence and Cybersecurity Exercise courses.
             </p>
