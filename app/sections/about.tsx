@@ -44,12 +44,12 @@ export default function About() {
         <h3 className="mb-4 text-lg font-medium">Specializations &amp; Interests</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {[
-            { title: 'Web Application Security', desc: 'OWASP Top 10, Burp Suite' },
-            { title: 'Reverse Engineering', desc: 'IDA, Assembly, x86' },
             { title: 'Python', desc: 'Programming, data analysis' },
+            { title: 'Data Networking', desc: 'OSI, TCP/UDP, IP addressing, subnets' },
+            { title: 'Security testing', desc: 'OWASP Top 10, Burp Suite, Red Teaming, Software exploitation' },
+            { title: 'Reverse Engineering', desc: 'IDA, Assembly, x86' },
             { title: 'SOC', desc: 'SIEM Monitoring, threat detection' },
             { title: 'Incident Response', desc: 'Triage, forensic analysis' },
-            { title: 'Data Networking', desc: 'OSI, TCP/UDP, IP addressing, subnets' },
           ].map((i) => (
             <div
               key={i.title}
