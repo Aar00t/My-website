@@ -46,7 +46,7 @@ export default function About() {
           {[
             { title: 'Python', desc: 'Programming, data analysis' },
             { title: 'Data Networking', desc: 'OSI, TCP/UDP, IP addressing, subnets' },
-            { title: 'Security testing', desc: 'OWASP Top 10, Software exploitation, Red Teaming' },
+            { title: 'Security Testing', desc: 'OWASP Top 10, Software exploitation, Red Teaming' },
             { title: 'Reverse Engineering', desc: 'IDA, Assembly, x86' },
             { title: 'SOC', desc: 'SIEM Monitoring, threat detection' },
             { title: 'Incident Response', desc: 'Triage, forensic analysis' },
